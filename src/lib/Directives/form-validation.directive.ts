@@ -2,7 +2,7 @@ import {Directive, Input, HostListener, OnInit, EventEmitter, Output} from "@ang
 import {FormGroup} from "@angular/forms";
 
 @Directive({
-  selector: "form"
+  selector: "form[bootstrap-form-validation]"
 })
 export class FormValidationDirective implements OnInit {
 
